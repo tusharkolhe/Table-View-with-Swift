@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7187A2AF207F959200E701DA /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7187A2AE207F959200E701DA /* CustomCell.swift */; };
 		71AF1AD52077484200160571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AF1AD42077484200160571 /* AppDelegate.swift */; };
 		71AF1AD72077484200160571 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AF1AD62077484200160571 /* ViewController.swift */; };
 		71AF1ADA2077484200160571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71AF1AD82077484200160571 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7187A2AE207F959200E701DA /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		71AF1AD12077484200160571 /* TKTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71AF1AD42077484200160571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71AF1AD62077484200160571 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				71AF1AD42077484200160571 /* AppDelegate.swift */,
 				71AF1AD62077484200160571 /* ViewController.swift */,
+				7187A2AE207F959200E701DA /* CustomCell.swift */,
 				71AF1AD82077484200160571 /* Main.storyboard */,
 				71AF1ADB2077484200160571 /* Assets.xcassets */,
 				71AF1ADD2077484200160571 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71AF1AD72077484200160571 /* ViewController.swift in Sources */,
+				7187A2AF207F959200E701DA /* CustomCell.swift in Sources */,
 				71AF1AD52077484200160571 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6RG38TUSL;
 				INFOPLIST_FILE = TKTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TusharKolhe.TKTableView;
@@ -441,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6RG38TUSL;
 				INFOPLIST_FILE = TKTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TusharKolhe.TKTableView;
